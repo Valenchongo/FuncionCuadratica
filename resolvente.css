@@ -1,0 +1,321 @@
+body{
+    display: flex;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.pcuadratica{
+    font-size: 1.9vh;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    flex-wrap:wrap ;
+    flex-direction: row;
+    width: 100%;
+    
+
+
+}
+.logo{
+    display: flex;
+    padding-top: 14px;
+    font-weight: bold;
+    font-size: 6vh;
+    height: 9vh;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(249, 246, 246);
+    color: #48e;
+}
+
+.cuadratica{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+B{
+    font-size: 3vh;
+}
+.a{
+    
+    color: red;
+    margin-right: 2px;
+}
+
+h2{
+    text-align: center;
+}
+.remplace{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-bottom: 20px;
+   
+
+
+}
+.diva{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+input{
+    width: 70px;
+}
+
+.A{
+    margin-right: 10px;
+}
+.B{
+    margin-right: 10px;
+}
+.C{
+    margin-right: 10px;
+}
+.contenedor{
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.calcular{       
+    margin-top: 30px;
+    height: 50px;
+    width: 70px;
+    align-self: center;
+    background-color:#3bd07c;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.resultadoraiz{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.raices{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.resultadoraices{
+    background-color: rgb(236, 233, 233);
+    width: 40%;
+    align-self: center;
+    margin-bottom:20px ;
+   
+}
+
+.resultadovertice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.vertice{
+    display: flex;
+    flex-direction: column;
+    
+     
+}
+
+.divvertice{
+    background-color: rgb(236, 233, 233);
+    width: 40%;
+    align-self: center;
+    margin-bottom:20px ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contenedorx{
+    
+    display: flex;
+    flex-direction: row;
+    margin-left: 40%;
+    margin-top: 0;
+    height: 7vh;
+}
+.contenedorx p{
+    margin-right: 20px;
+    width: 200px;
+}
+
+.verticex{
+    
+    text-align: center;
+    height: 60px;
+    height: 20px;
+    align-self: center;
+    margin-left: 10px;
+    margin-top: 2vh;
+}
+
+.verticey{
+   
+    text-align: center;
+    height: 60px;
+    height: 20px;
+    align-self: center;
+    margin-left: 10px;
+    margin-top: 2vh;
+}
+
+.raiz1{
+    text-align: center;
+    height: 60px;
+    height: 20px;
+    align-self: center;
+    margin-left: 10px;
+
+}
+
+
+
+.x1{
+    height: 60px;
+    height: 20px;
+}
+.raiz2{
+    text-align: center;
+    height: 60px;
+    height: 20px;
+    align-self: center;
+    margin-left: 10px;
+}
+
+@media (min-width:400px){
+    .calcular{       
+        margin-top: 30px;
+        height: 10vh;
+        width: 16vh;
+        align-self: center;
+        background-color:#3bd07c;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 3vh;
+    }
+
+    .pcuadratica{
+        font-size: 5vh;
+    }
+    b{
+        font-size: 6vh;
+        margin-right: 2px;
+    }
+    .resultadoraices{
+        background-color: rgb(236, 233, 233);
+        width: 40%;
+        height: 20vh;
+        align-self: center;
+        margin-bottom:20px ;
+       
+    }
+   
+    .verticex{
+       margin-top: 2vh;
+       padding-bottom: 1vh;
+    }
+    
+    .divvertice{
+        background-color: rgb(236, 233, 233);
+        width: 40%;
+        height: 20vh;
+        align-self: center;
+        margin-bottom:20px ;
+       
+    }
+
+    .resultadoraices div{
+        margin-top: 3vh;
+        
+    }
+     
+    .calcular:hover{
+        background-color: #1d4d32;
+        color: white;
+    }
+
+   nav{
+    display:flex;
+    justify-content: flex-start;
+
+   }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.foto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("matematicafoto.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    font-size: 10vh;
+}*/
+
